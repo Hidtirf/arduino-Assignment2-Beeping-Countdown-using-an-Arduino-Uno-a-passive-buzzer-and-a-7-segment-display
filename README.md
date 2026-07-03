@@ -3,15 +3,16 @@
 This is my submission for Assignment 2 in the Programming C++ for
 Engineers Using Arduino course at Ghana Communication Technology  University.
 ## What this project does
-## Hardware used
 A 7-segment display counts down from 9 to 0. On each step, a passive
 buzzer plays a short beep. When the countdown reaches 0, the buzzer
 plays a longer tone to signal completion.
-Page 24
-Assignment 2 — Buzzers and 7-Segment Displays- Arduino Uno- 1 x passive buzzer (piezo)- 1 x single-digit 7-segment display (common cathode)- 1 x 220 ohm resistor (on the COM pin)- Breadboard and jumper wires
+## Hardware used
  
 ## Concepts demonstrated
- - The tone() and noTone() functions- Passive vs active buzzers- 7-segment display wiring (common cathode)- 2D arrays for digit patterns (lookup table)- Functions with parameters- while and for loops- Serial Monitor output
+ - The tone() and noTone() functions- Passive vs active buzzers-
+
+    7-segment display wiring (common cathode)- 2D arrays for digit patterns (lookup table)
+   -  Functions with parameters- while and for loops- Serial Monitor output
  
 ## How to run it
  
