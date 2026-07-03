@@ -7,7 +7,10 @@ A 7-segment display counts down from 9 to 0. On each step, a passive
 buzzer plays a short beep. When the countdown reaches 0, the buzzer
 plays a longer tone to signal completion.
 ## Hardware used
- 
+ - Arduino Uno- 1 x passive buzzer (piezo)
+ -  1 x single-digit 7-segment display (common cathode)
+ -   1 x 220 ohm resistor (on the COM pin)
+ -    Breadboard and jumpe
 ## Concepts demonstrated
  - The tone() and noTone() functions- Passive vs active buzzers-
 
